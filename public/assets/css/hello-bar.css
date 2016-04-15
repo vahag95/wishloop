@@ -1,0 +1,40 @@
+.wl-hb-cont {
+	width: 100%;
+	position: fixed;
+}
+
+.wl-hb-cont iframe {
+	border: none;
+	height: 48px;
+	width: 100%;
+}
+
+.wl-hb-top {
+	top: 0;
+}
+
+.wl-hb-bottom {
+	bottom: 0;
+}
+
+.wl-hb-bottom iframe {
+	margin-bottom: -5px;
+}
+
+.wl-hb-close {
+	color: #ffffff;
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    text-shadow: 0px 0px 1px #000000;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.wl-hb-bottom .wl-hb-close {
+	top: 12px;
+}
+
+.wl-hb-close:hover {
+	color: #aaaaaa;
+}

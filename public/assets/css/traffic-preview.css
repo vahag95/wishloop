@@ -1,0 +1,36 @@
+.traffic-container {
+	padding: 5px;
+}
+
+.traffic-container .panel-body {
+	padding: 5px;
+}
+
+.traffic-container .panel-heading {
+	overflow: hidden;
+}
+
+.traffic-container .panel-heading img {
+	width: 25px;
+	height: 25px;
+	margin-right: 20px;
+}
+
+.link-title {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.powered-by-container {
+	text-align: right;
+	color: #cccccc;
+	font-size: 12px;
+}
+.feed div{
+	color : black;
+	border-bottom: 1px solid #ececec;
+	padding :3px 0;
+}
+.feed b{
+	font-size: 12px !important;
+}

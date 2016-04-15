@@ -1,0 +1,27 @@
+.wl-tg-cont {
+	width: 270px;
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+}
+
+.wl-tg-cont iframe {
+	border: none;
+	height: 250px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.wl-tg-close {
+	color: #ffffff;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    text-shadow: 0px 0px 1px #000000;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.wl-tg-close:hover {
+	color: #aaaaaa;
+}

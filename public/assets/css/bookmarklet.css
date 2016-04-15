@@ -1,0 +1,86 @@
+.modal {
+    border:0;            
+    height:200px;
+    position:fixed;
+    right:20px;
+    top:20px;
+    width:200px;
+    z-index:101;   
+}​
+
+.form-elementz {
+    height: auto;
+    padding: 20px 10px;
+    border-bottom: 1px solid #EFEDED;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.form-labelz {
+    font-weight: 700;
+    width: 110px;
+}
+
+.wl_modal_head {
+    font-weight: 700;
+    text-align: center;
+    background-color: #F1EEEE;
+    padding: 15px;
+    border-bottom: 3px solid rgba(212,207,207,.52);
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 200px;
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.form-elementz div {
+    display: inline-block;
+}
+
+.form-elementz select {
+    width: 200px;
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+}
+
+.wl_form_buttons {
+    border-bottom: none;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+}
+
+.wl_form_buttons .wl_save_btn {
+    background-color: #22C271;
+}
+
+.wl_form_buttons .wl_cancel_btn {
+    background-color: #D22E2E;
+    float: right;
+}
+
+.wl_form_buttons .wl_cancel_btn, .wl_form_buttons .wl_save_btn {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}

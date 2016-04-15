@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.hello-bar-container {
+	text-align: center;
+	padding: 10px;
+}
+
+.hello-bar-container .text {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: 8px;
+}
+
+.hello-bar-container.top {
+	-moz-box-shadow: 0 2px 5px #7B7B7B;
+	-webkit-box-shadow: 0 2px 5px #7B7B7B;
+	box-shadow: 0 2px 5px #7B7B7B;
+}
+
+.hello-bar-container.bottom {
+	-moz-box-shadow: 0 -2px 5px #7B7B7B;
+	-webkit-box-shadow: 0 -2px 5px #7B7B7B;
+	box-shadow: 0 -2px 5px #7B7B7B;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
